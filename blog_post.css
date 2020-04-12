@@ -1,0 +1,64 @@
+﻿@import url("footer.css");
+
+header {
+          text-align: center;
+          background-color: gray;
+	  color: white;
+          padding: 10px;
+          font-size: 30px;
+         }
+
+* {
+    box-sizing: border-box;
+  }
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+             border-radius: 5px;
+             background-color: #f2f2f2;
+             padding: 10px;
+           }
+
+/* Create two columns that float next to eachother */
+.column {
+          float: left;
+          width: 50%;
+          margin-top: 6px;
+          padding: 20px;
+        }
+
+/* Clear floats after the columns */
+.row:after {
+              content: "";
+              display: table;
+              clear: both;
+           }
+
+.post-info {
+              font-family: 'Playfair Display', serif;
+              letter-spacing: 0.05em;
+              margin: 0.2em 0;
+              text-align: center;
+           }
